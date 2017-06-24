@@ -8,19 +8,16 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-# Get the long description from the README file
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
-
 setup(
     name='dynamight',
-    version='0.1.dev',
+    version='0.1.0',
 
-    description='A sample Python project',
-    long_description=long_description,
+    description='Dynamic Strong Typing',
+    long_description='A quick and dirty use of Python function annotations to apply strong typing to functions and methods at runtime. If inputs or outputs of a function do not match the type specified in the function annotation, a type error will be thrown. This strong typing is applied to individual functions/classes through a decorator. More documentation is available at the project homepage.',
 
     # The project's main homepage.
     url='https://github.com/rachel-sharp/dynamight',
+    download_url='https://github.com/rachel-sharp/dynamight/archive/0.1.tar.gz',
 
     # Author details
     author='Rachel Sharp',

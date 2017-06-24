@@ -118,4 +118,4 @@ Feedback appreciated! This was a project I worked on with an aim to see what I c
 
 A few other ideas I had for this but didn't have time for are:
 * Using the `typing` library to check for collections of typed items as function annotations.
-* Since strong typing doesn't seem as necessary in Python/isn't integral to the language, another idea I had was something like a wrapper which performs a conversion on inputs which don't match the type in the annotation, to the specified type, through some sort of graph of transforms. Would be like defensive programming.
+* Since strong typing doesn't seem as necessary in Python/isn't integral to the language, another idea I had was something like a wrapper which performs a conversion on inputs which don't match the type in the annotation, to the specified type, through some sort of graph of transforms. Would be a kind of defensive programming.

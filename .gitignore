@@ -29,7 +29,9 @@
 *.sqlite
 
 # OS generated files #
-######################
+##################### Get the long description from the README file
+with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
+    long_description = f.read()##
 .DS_Store
 .DS_Store?
 ._*
@@ -40,3 +42,8 @@ Thumbs.db
 
 .cache
 .idea
+*.egg-info
+__pycache__
+
+dist
+build
